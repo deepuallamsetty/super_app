@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.leftside{
+    background-image: url("C:\Users\91891\Desktop\discover.png");
+    max-width: 100%;
+    background-size: cover;
+    height: auto;
+    
+    
+   
+}
+div{
+    flex: 1;
+}
+.Discover{
+    color: white;
+    margin-top: 550px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin-bottom: auto;
+    margin-left: 49px;
+    flex: end;
+    font-size: 45px;
+    
+}
+.rightside{
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    width: 135vh;
+   
+    
+}
+.superapp{
+    color: #72DB73;
+    text-align: center;
+   margin: auto;
+   margin-top: 100px;
+   font-family: cursive;
+}
+.create{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+input{
+    background-color: #292929;
+    width:300px;
+    height: 33px;
+    color: white;
+    border: none;
+    outline-color: #72DB73;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+::placeholder{
+    color: #7C7C7C;
+    padding-left: 15px;
+}
+input[type="checkbox"]{
+    margin-left: 220px;
+    height: 14px;
+    width: 14px;
+    margin-top: 15px;
+
+   
+}
+.checkboxcontent{
+    color: #7C7C7C;
+    margin-top: 15px;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+button{
+    width:300px;
+    height: 33px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #72DB73;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.terms{
+    color: #7C7C7C;
+    margin-left: 240px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.seterror{
+    color: red;
+   margin-right: 225px;
+   margin-top: 0px;
+   text-align: right;
+   font-size: 10px;
+}
